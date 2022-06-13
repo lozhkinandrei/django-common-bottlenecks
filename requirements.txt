@@ -1,0 +1,5 @@
+Django==4.0.5
+pandas==1.4.2
+django-debug-toolbar==3.4.0
+django-cprofile-middleware==1.0.5
+snakeviz==2.1.1

@@ -1,0 +1,12 @@
+{% load static %}
+
+<body>
+  {% for author in authors %}
+  <p>{{ author.first_name }}</p>
+  <ul>
+    {% for book in author.books.all %}
+    <li>{{ book.name }} {{ book.date_published }}</li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</body>
